@@ -1,0 +1,40 @@
+:root{
+    --title-color: #ffffff;
+    --title-p: #fff;
+}
+
+.main.lightTheme{
+    --title-color: #383736;
+    --title-p: #403c3c;
+}
+
+.imgSection{
+    width: 100%;
+    position: relative;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 86.5vh;
+}
+.title p{
+    width: 400px;
+    color: var(--title-p);
+    font-size: 18px;
+}
+.title h1{
+    font-size: 50px;
+    padding-bottom: 1rem;
+    color: var(--title-color);
+}
+.title{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .title p{
+        width: 300px;
+    }
+}

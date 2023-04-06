@@ -1,0 +1,63 @@
+:root{
+    --contact-bg: #fff;
+    --contactbtn: #00d0ff;
+    --btn-color: #2f2f2f;
+    --inp-bg:#fff;
+    --inp-border: #00d0ff;
+    --inp-box-shadow: #00d0ffc9;
+    --h1-span: #3f3f3f;
+}
+.colorr.dark{
+    --contact-bg: #464646;
+    --contactbtn: #858585;
+    --btn-color: #cbcbcb;
+    --inp-bg:#868080;
+    --inp-border: #404040;
+    --inp-box-shadow: #000000c9;
+    --h1-span: #fff;
+}
+
+.contactBtn{
+    color: var(--btn-color);
+    background: var(--contactbtn);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 1rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    justify-content: center;
+}
+.inp{
+    background: var(--inp-bg);
+    width: 400px;
+    height: 50px;
+    border: 2px solid var(--inp-border);
+    outline: none;
+    border-radius: 20px;
+    padding: 1rem 10px;
+    box-shadow: inset 0 0 10px var(--inp-box-shadow);
+}
+.colorr{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: var(--contact-bg);
+}
+.contact h1{
+    text-align: center;
+    color: var(--h1-span);
+}
+.contact span{
+    color: var(--h1-span);
+    text-align: center;
+}
